@@ -628,7 +628,7 @@ a {
   display: block;
   -webkit-box-shadow: 0 0 0 2px rgba(255,255,255,0.5), 0px 2px 20px 3px rgba(0,0,0,0.25);
   box-shadow: 0 0 0 2px rgba(255,255,255,0.5), 0px 2px 20px 3px rgba(0,0,0,0.25);
-  border-radius: 300px;
+  border-radius: 100%;
   width: 128px;
   height: 128px;
   margin: 0 auto;
@@ -636,7 +636,7 @@ a {
   overflow: hidden;
   background: #88acdb;
   -webkit-transition: all 0.2s ease-in;
-  display: -webkit-box;
+  /*display: -webkit-box;*/
   -webkit-box-orient: horizontal;
   -webkit-box-pack: center;
   -webkit-box-align: center;
@@ -645,7 +645,7 @@ a {
 #header .profilepic img {
   width: 20%;
   height: 20%;
-  border-radius: 300px;
+  border-radius: 100%;
   opacity: 0;
   -webkit-transition: all 0.2s ease-in;
 }
